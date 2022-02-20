@@ -1,0 +1,68 @@
+/**
+ * Help Book
+ * 
+ * In your interface You have 3 main Parts :
+ * The top Menu :
+ * Containing several button to make diffrent types of requests and a text field
+ * in which you specify your request parameters
+ * The Text Area:
+ * In which You see you requests results
+ * The bottom Menu :
+ * Containing Controll buttons
+ * 
+ * First Step To work with this repote is to Open your C++ Server and connect to
+ * it by pressing Connect button
+ * 
+ *          List Button :
+ *          This button allows you to list all the content already created and available content
+ * @Params no Paramter required
+ * 
+ *         Show Button :
+ *         This button allows you to print your media object or group charchteristics
+ * @Params You must specify the name of object in the command field
+ * @Example image1
+ * 
+ *         Play Button :
+ *         This button allows you to play your object
+ * @Params You must specify the name of object in the command field
+ * @Example video1
+ *
+ *         Add Photo :
+ *         This button allow you to add a Photo
+ * @Params You Must specify a request in the following format :
+ *         Name Path/to/Image latitud logntitude
+ * @Remarque latitude and longtitude should be floats
+ * @Example imag ./assets/img.png 10 12
+ *
+ *           Add Video :
+ *           This button allow you to add a Video
+ * @Params You Must specify a request in the following format :
+ *         Name Path/to/Video duration
+ * @Remarque duration int
+ * @Example video ./assets/video.mp4 10
+ *
+ *           Add Film :
+ *           This button allow you to add a Film
+ * @Params You Must specify a request in the following format :
+ *         Name Path/to/Film duration of film durations of chapters number of chapters
+ * @Example SAW ./assets/video.mp4 134 10 80 20 24 4
+ *
+ *          Add Group :
+ *          This button allow you to add a Group
+ * @Params You Must specify The name of the group in the command field
+ * @Example ImagesGroup
+ *
+ *          Add To Group :
+ *         This button allow you to add an already existing media object to an
+ *         already existing group
+ * @Params You Must specify a request in the following format :
+ *         Group Name Object Name
+ * @Example VideosGroup video1
+ *
+ * @Important all your inputs chacrahters must be in this permitted inputs list:
+ *             - [a,z]
+ *             - [A,Z]
+ *             - [0,9]
+ *             - "/" and "."
+ *             any charachter outside this list your request won't be processed
+ */

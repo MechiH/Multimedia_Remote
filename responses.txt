@@ -1,0 +1,31 @@
+
+Q4)
+Because it's declared as virtual void methodMultimedia()=0 , this method is designated as abstract.
+Because the class has become abstract, it is no longer feasible to instantiate the multimedia object. 
+
+Q5)
+Polymorphism is the key feature.
+Display function must be declared as virtual in C++ multimedia classes.
+Array contains pointers to objects. 
+in C++ the array can also contain objects but in JAVA the array always contains pointers to objects.
+
+
+Q6) 
+A pointer to the array passed as argument is not enough; the array must be passed in the Film object using refrences.
+
+
+Q7)
+Because while creating the Film object we had an instance variable created with "new", so in the destructor of Film,
+the instance variable "array" must be destroyed too.
+
+
+Q8) 
+Class groups that include objects must have destructors, so te delete these instance when  the group object is deleted
+whereas if it just have pointers to the objects havaing a destructor is not mandatory. 
+
+Q10)
+We might add a pointer to a Table in the Multimedia class and check whether it is null
+ to prevent an object from being created outside the table. 
+
+
+
