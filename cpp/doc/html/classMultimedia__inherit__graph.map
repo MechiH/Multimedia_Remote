@@ -1,6 +1,0 @@
-<map id="Multimedia" name="Multimedia">
-<area shape="rect" id="node1" title="Class For Multimedia Object." alt="" coords="31,5,116,32"/>
-<area shape="rect" id="node2" href="$classPhoto.html" title="Class For Photo object." alt="" coords="5,80,61,107"/>
-<area shape="rect" id="node3" href="$classVideo.html" title="Class For Video object." alt="" coords="86,80,141,107"/>
-<area shape="rect" id="node4" href="$classFilm.html" title="Class For Film object." alt="" coords="90,155,137,181"/>
-</map>
